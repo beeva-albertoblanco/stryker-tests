@@ -1,0 +1,24 @@
+{
+  "name": "stryker-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/calculator.js",
+  "scripts": {
+    "stryker": "./node_modules/.bin/stryker run stryker.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-stryker": "^0.9.0",
+    "jasmine-core": "^2.8.0",
+    "mocha": "^3.5.3",
+    "rewire": "^2.5.2",
+    "stryker": "^0.9.3",
+    "stryker-api": "^0.8.0",
+    "stryker-html-reporter": "^0.7.2",
+    "stryker-jasmine": "^0.5.0",
+    "stryker-mocha-framework": "^0.4.0",
+    "stryker-mocha-runner": "^0.7.0"
+  }
+}
