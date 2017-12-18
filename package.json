@@ -1,7 +1,7 @@
 {
   "name": "stryker-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "description",
   "main": "src/calculator.js",
   "scripts": {
     "stryker": "./node_modules/.bin/stryker run stryker.conf.js",
